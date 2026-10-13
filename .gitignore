@@ -1,0 +1,29 @@
+﻿# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Java and frontend build outputs
+backend/target/
+frontend/node_modules/
+frontend/dist/
+
+# Local database files
+backend/data/
+data/
+*.mv.db
+*.trace.db
+
+# Local backups
+*.bak
+*.backup*
+*.bak.*
+
+# IDE and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.before-*
+*.encoding-backup
+*.phase*-backup
