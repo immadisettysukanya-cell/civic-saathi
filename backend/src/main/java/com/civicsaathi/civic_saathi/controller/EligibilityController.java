@@ -14,7 +14,7 @@ import com.civicsaathi.civic_saathi.dto.EligibilityResult;
 import com.civicsaathi.civic_saathi.dto.EligibilitySubmission;
 import com.civicsaathi.civic_saathi.dto.NextQuestionRequest;
 import com.civicsaathi.civic_saathi.service.SchemeEligibilityService;
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = {"http://localhost:5173", "http://localhost:3001"})
 @RestController
 @RequestMapping("/api/eligibility")
 public class EligibilityController {
